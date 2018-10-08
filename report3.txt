@@ -1,0 +1,21 @@
+Parameters:
+height = 1000
+width = 1000
+threshold = 100
+xMin = -2
+xMax = 1
+yMin = -1.5
+yMax = 1.5
+
+Number of tests: 5
+
+                          Time
+Python implementation     5.35s
+Numpy implementation      5.01s
+Numba implementation      0.15s
+
+
+# Comparison notes
+Advantages of using Numba instead of Numpy is the extreme speedup that occurs because of the optimised code. It is also really easy to use.
+
+Disadvantages might be that it needs to be installed as a an external dependency and it's hard to see where potential bugs occur.

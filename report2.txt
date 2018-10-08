@@ -1,0 +1,15 @@
+Parameters:
+height = 1000
+width = 1000
+threshold = 100
+xMin = -2
+xMax = 1
+yMin = -1.5
+yMax = 1.5
+
+
+Number of tests: 5
+
+                          Time
+Python implementation     5.35s
+Numpy implementation      5.01s
